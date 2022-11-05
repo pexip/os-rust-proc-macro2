@@ -1,0 +1,29 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets --all-features
+Features: test-name=rust-proc-macro2:@
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets 
+Features: test-name=librust-proc-macro2-dev:default
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets --no-default-features --features nightly
+Features: test-name=librust-proc-macro2-dev:nightly
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets --no-default-features --features proc-macro
+Features: test-name=librust-proc-macro2-dev:proc-macro
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets --no-default-features --features span-locations
+Features: test-name=librust-proc-macro2-dev:span-locations
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test proc-macro2 1.0.47 --all-targets --no-default-features
+Features: test-name=librust-proc-macro2-dev:
+Depends: dh-cargo (>= 18), librust-quote-1-dev, @
+Restrictions: allow-stderr, skip-not-installable
