@@ -1,3 +1,9 @@
+rust-proc-macro2 (1.0.47-1pexip2) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:31:24 +0000
+
 rust-proc-macro2 (1.0.47-1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
