@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: debhelper (>= 12),
  dh-cargo (>= 25),
  cargo:native <!nocheck>,
- rustc:native <!nocheck>,
+ rustc:native (>= 1.56) <!nocheck>,
  libstd-rust-dev <!nocheck>,
  librust-unicode-ident-1+default-dev <!nocheck>
 Maintainer: Pexip AS <packaging@pexip.com>
@@ -12,9 +12,10 @@ XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@al
 XSBC-Pexip-Original-Uploaders:
  Ximin Luo <infinity0@debian.org>,
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro2]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro2
+X-Cargo-Crate: proc-macro2
 Rules-Requires-Root: no
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ trixie
 
@@ -41,11 +42,10 @@ Provides:
  librust-proc-macro2-1.0+nightly-dev (= ${binary:Version}),
  librust-proc-macro2-1.0+proc-macro-dev (= ${binary:Version}),
  librust-proc-macro2-1.0+span-locations-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.47-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.47+default-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.47+nightly-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.47+proc-macro-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.47+span-locations-dev (= ${binary:Version})
+ librust-proc-macro2-1.0.81-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.81+default-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.81+nightly-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.81+proc-macro-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.81+span-locations-dev (= ${binary:Version})
 Description: Substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case - Rust source code
- This package contains the source for the Rust proc-macro2 crate, packaged by
- debcargo for use with cargo and dh-cargo.
+ Source code for Debianized Rust crate "proc-macro2"
