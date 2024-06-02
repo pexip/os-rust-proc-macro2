@@ -40,10 +40,10 @@ Provides:
  librust-proc-macro2-1.0+nightly-dev (= ${binary:Version}),
  librust-proc-macro2-1.0+proc-macro-dev (= ${binary:Version}),
  librust-proc-macro2-1.0+span-locations-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.81-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.81+default-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.81+nightly-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.81+proc-macro-dev (= ${binary:Version}),
- librust-proc-macro2-1.0.81+span-locations-dev (= ${binary:Version})
+ librust-proc-macro2-1.0.85-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.85+default-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.85+nightly-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.85+proc-macro-dev (= ${binary:Version}),
+ librust-proc-macro2-1.0.85+span-locations-dev (= ${binary:Version})
 Description: Substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case - Rust source code
  Source code for Debianized Rust crate "proc-macro2"
