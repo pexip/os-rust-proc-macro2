@@ -1,3 +1,10 @@
+rust-proc-macro2 (1.0.85-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.85 from crates.io using debcargo 2.6.1
+
+ -- Blair Noctis <n@sail.ng>  Sun, 02 Jun 2024 06:00:40 +0000
+
 rust-proc-macro2 (1.0.81-1+pexip24u1) pexip; urgency=medium
 
   * New upstream release
