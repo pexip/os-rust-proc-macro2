@@ -1,3 +1,9 @@
+rust-proc-macro2 (1.0.85-1+pexip24u2) pexip; urgency=medium
+
+  * Rebuild with rustc 1.79
+
+ -- Huw Jones <huw@pexip.com>  Wed, 10 Jul 2024 16:12:28 +0100
+
 rust-proc-macro2 (1.0.85-1+pexip24u1) pexip; urgency=medium
 
   * New upstream release
